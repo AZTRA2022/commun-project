@@ -4,13 +4,13 @@ import { Copy, CreditCard } from 'lucide-react-native'
 
 const CarousselBalance = () => {
     return (
-        <View className=' w-full h-1/3 items-center justify-center ' >
+        <View className=' w-full h-1/3 items-center justify-center absolute top-24 ' >
             {/* <Text className='text-sm text-gray-500' >Total Balance</Text> */}
             <View className='bg-slate-900  w-11/12 h-[70%] flex-col rounded-2xl shadow-2xl justify-between shadow-black ' >
                 <View className='flex-row items-center justify-between p-4' >
                     <View className='flex-col w-1/2 left-2 top-2 ' >
                         <Text className='text-sm text-gray-500' >Total Balance</Text>
-                        <Text className='text-3xl font-bold text-white' >$ 1,000.00</Text>
+                        <Text className='text-3xl font-bold text-white' >$ 1,850.20</Text>
                     </View>
                     <Text className='text-zinc-300  ' >
                         BenchMark
